@@ -1,0 +1,64 @@
+header {
+	background-image: url("../images/header_Background.jpg");
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 0px;
+	height: 450px;
+	width: 100%;
+	margin: auto;
+	z-index: -10;
+}
+.headertranspa {
+	z-index: -5;
+	background-color: rgba(0,0,0,0.7);
+	height: 450px;
+	width: 100%;
+	margin-top: -450px;
+}
+nav {
+	z-index: 0;
+	width: 450px;
+	height: 60px;
+	float: right;
+}
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li{
+	float: left;
+	list-style-type: none;
+}
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 15px 20px;
+	position: relative;
+	top: 15px;
+}
+.logo {
+	background-image: url("../images/LOGO.png");
+	background-repeat: no-repeat;
+	margin: auto;
+	height: 250px;
+	width: 280px;
+	position: relative;
+	top:150px;
+}
+.whoweare {
+	width:1100px;
+	margin:auto;
+}
+.beer28 {
+	background-image: url("../images/imageBiere28.png");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+}
+.beer28text {
+	background-color: #ff0000;
+	width: 150px;
+	height: 40px;
+	margin-left: -100px;
+}
