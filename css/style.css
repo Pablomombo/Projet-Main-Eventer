@@ -1,0 +1,23 @@
+#Pablo{width: 80%; margin: auto;}
+
+h2{font-size: 40px; margin: auto;}
+
+h3{font-size:15px; margin: auto; display: inline; background-color:red;}
+
+div{border: 3px solid red;}
+
+.gauche{border: 3px solid blue; height: 300px; width: 400px;
+	float: left; margin: 0 0 0 100px;}
+
+.droite{border: 3px solid blue; height: 300px; width: 400px;
+	float: right; margin: 0 100px 0 0;}
+
+.resume{border: 3px solid yellow;}
+
+.image{float: left;}
+
+.clear{clear: both;}
+
+.femme1{float: left;}
+
+.femme2{float: right;}
