@@ -1,6 +1,6 @@
 #Pablo{width: 80%; margin: auto;}
 
-h2{font-size: 40px; margin: auto;}
+h2{font-size: 40px; width:50%; margin: auto;}
 
 h3{font-size:15px; margin: auto; display: inline; background-color:red;}
 
@@ -21,3 +21,5 @@ div{border: 3px solid red;}
 .femme1{float: left;}
 
 .femme2{float: right;}
+
+.salsa, .christmas, .finance{border: 3px solid blue; height: 300px; width: 230px;}
