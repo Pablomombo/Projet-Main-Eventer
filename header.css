@@ -1,0 +1,113 @@
+/*body
+{
+    
+}
+header
+{
+    background-image: url('image/header_background.jpg');
+    display: flex; 
+    position: relative;  
+    z-index: 1;
+    border: 2px solid rgb(25, 54,189);
+    
+}
+header nav
+{
+
+}
+nav
+{
+    border:solid 1px black;
+
+
+}
+ul
+{
+    list-style: none;
+    
+}
+li
+{
+    display: inline;
+    margin-left: 60px;
+}
+li a
+{
+    
+}
+#noirclair
+{
+
+    
+    
+}
+#logo
+{
+    border: solid 1px red;
+    width: 100px;
+    height: 800px;
+}
+#paraone
+{
+    border: solid 1px yellow;
+    height: 800px;
+    width: 100px;
+}
+#paratwo
+{
+    border: solid 1px green;
+    height: 800px;
+    width: 100px;
+}
+*/
+
+header
+{
+    border: solid 1px black;
+    width: 100%;
+    height: 600px;
+    
+    
+}
+header img
+{
+    height: 100%;
+    width: 100%;
+    
+
+}
+#img
+{}
+nav
+{
+    
+    
+    border: solid 1px black;
+    background-color: aqua;
+    width: 500px;
+    margin-left: 60%;
+    
+    
+    
+    
+    
+}
+ul
+{
+
+    border: solid 1px black;
+    
+    
+    
+}
+
+li
+{
+    
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+    
+    
+    
+}
