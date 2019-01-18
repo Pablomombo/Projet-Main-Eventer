@@ -1,16 +1,19 @@
-#Pablo{width: 80%; margin: auto;}
+#Pablo{width: 65%; margin: auto;}
 
-h2{font-size: 40px; width:50%; margin: auto;}
+h2{font-size: 50px; width:25%; margin: auto;}
 
-h3{font-size:15px; margin: auto; display: inline; background-color:red;}
+h3{font-size:20px; margin: auto; display: inline; width: 13%; background-color:red;}
 
-div{border: 3px solid red;}
+hr {width: 180px;
+	margin-left: 360px; margin-right: auto; margin-top: 3px; border:2px solid #ff0000;}
+
+#team, #events{border: 3px solid red; margin: 150px 0 150px 0;}
 
 .gauche{border: 3px solid blue; height: 300px; width: 400px;
-	float: left; margin: 0 0 0 100px;}
+	float: left; margin: 30px 0 0 0;}
 
 .droite{border: 3px solid blue; height: 300px; width: 400px;
-	float: right; margin: 0 100px 0 0;}
+	float: right; margin: 30px 0 0 0;}
 
 .resume{border: 3px solid yellow;}
 
@@ -18,8 +21,25 @@ div{border: 3px solid red;}
 
 .clear{clear: both;}
 
+.femmes{border: 3px solid red; margin: 0;}
+
 .femme1{float: left;}
 
 .femme2{float: right;}
 
-.salsa, .christmas, .finance{border: 3px solid blue; height: 300px; width: 230px;}
+.head{vertical-align: middle; test-align: center;}
+
+.under2{color: #B22222; width: 182px; border-width: 2px;
+	margin-left: 365px; margin-right: auto; margin-top: 3px;}
+
+.mini{border: 3px solid blue; height: 225px; width: 220px;}
+
+.title{font-size:30px; background-color:red;}
+
+.tableau{display: flex; margin: 50px 80px 0 70px;}
+
+.tableau>section{ margin: 20px; text-align: center;}
+
+.mois{color: blue; font-size: 18px; margin: 10px 0 10px 0;}
+
+.date{ margin: 10px 0 10px 0; font-weight: bold;}
