@@ -7,21 +7,21 @@ h3{font-size:20px; margin: auto; display: inline; width: 13%; background-color:r
 hr {width: 180px;
 	margin-left: 360px; margin-right: auto; margin-top: 3px; border:2px solid #ff0000;}
 
-#team, #events{border: 3px solid red; margin: 150px 0 150px 0;}
+#team, #events{border: 3px solid white; margin: 150px 0 150px 0;}
 
-.gauche{border: 3px solid blue; height: 300px; width: 400px;
+.gauche{border: 3px solid white; height: 300px; width: 400px;
 	float: left; margin: 30px 0 0 0;}
 
-.droite{border: 3px solid blue; height: 300px; width: 400px;
+.droite{border: 3px solid white; height: 300px; width: 400px;
 	float: right; margin: 30px 0 0 0;}
 
-.resume{border: 3px solid yellow;}
+.resume{border: 3px solid white;}
 
 .image{float: left;}
 
 .clear{clear: both;}
 
-.femmes{border: 3px solid red; margin: 0;}
+.femmes{border: 3px solid white; margin: 0;}
 
 .femme1{float: left;}
 
@@ -29,10 +29,8 @@ hr {width: 180px;
 
 .head{vertical-align: middle; test-align: center;}
 
-.under2{color: #B22222; width: 182px; border-width: 2px;
-	margin-left: 365px; margin-right: auto; margin-top: 3px;}
-
-.mini{border: 3px solid blue; height: 225px; width: 220px;}
+.mini{border: 0 solid white; height: 225px; width: 220px;
+	box-shadow: 0 3px 5px #808080;}
 
 .title{font-size:30px; background-color:red;}
 
