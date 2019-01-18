@@ -7,6 +7,7 @@
  		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
   		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Cinzel%7CComfortaa" rel="stylesheet">
 	</head>
 	<body>
 		<div name="perry">
@@ -16,16 +17,16 @@
 
 		</div>
 		<div name="Jean-Philippe ">
-			<div>
+			<div class="formcontainer">
 				<h2>Need an Event?</h2>
 				<form>
-					<div>
+					<!-- <div class="formfirstrow">
 						<p>Name *</p>
 						<input type="text" value="Name *">
-					</div>
-					<div>
-						<p>Last name *</p>
-						<input type="text" value="Lastname *">
+						<div class="formfirstrowCol">
+							<p>Last name *</p>
+							<input type="text" value="Lastname *">
+						</div>
 					</div>
 					<div>
 						<p>E-mail *</p>
@@ -38,12 +39,32 @@
 					</div>
 					<div>
 						<button type="button">Send</button>
+					</div> -->
+					<div class="formfirstrow">
+						<div style="float:left">
+							<label for="male">Name *</label>
+							<input type="text" name="name" id="name" value="">
+						</div>
+						<div class="formfirstrowCol">
+							<label for="male">Lastname *</label>
+							<input type="text" name="lastname" id="lastname" value="">
+						</div>
+					</div>
+					<div style="float:left">
+						<label for="male">E-mail *</label>
+						<input type="text" name="email" id="email" value=""><br />
+					</div>
+					<div style="clear:both">
+					<label for="description">Description</label>
+					<textarea name="description" id="description" rows="10" cols="30">
+					</textarea>
+					<button type="button">Send</button>
 					</div>
 				</form>
 			</div>
 		</div>
 		<div class=footer>
-			<h3 class="footer">Main eventers</h3>
+			<h3>Main eventers</h3>
 			<div class="logosContainer">
 				<img class="logos" src="images/logo_in.png" alt="logo linkedIn" />
 				<img class="logos" src="images/logo_insta.png" alt="logo instagram" />
