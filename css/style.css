@@ -1,16 +1,16 @@
 header {
 	background-image: url("../images/header_Background.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin: auto;
 	margin-top: 0px;
 	height: 450px;
 	width: 100%;
-	margin: auto;
 	z-index: -10;
 }
 .headertranspa {
 	z-index: -5;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.85);
 	height: 450px;
 	width: 100%;
 	margin-top: -450px;
@@ -37,6 +37,9 @@ nav ul li a{
 	position: relative;
 	top: 15px;
 }
+nav ul li a:hover{
+	color: #af0102;
+}
 .logo {
 	background-image: url("../images/LOGO.png");
 	background-repeat: no-repeat;
@@ -49,16 +52,128 @@ nav ul li a{
 .whoweare {
 	width:1100px;
 	margin:auto;
+	display: inline-block;
+	z-index: 10px;
 }
 .beer28 {
 	background-image: url("../images/imageBiere28.png");
 	background-repeat: no-repeat;
 	height: 400px;
 	width: 400px;
+	position: relative;
+	top: 100px;
+	left: 275px;
 }
 .beer28text {
-	background-color: #ff0000;
-	width: 150px;
+	position: relative;
+	top: 30px;
+	background-color: #af0102;
+	width: 165px;
 	height: 40px;
 	margin-left: -100px;
+	border: 3px solid #FFFFFF;
+	padding: 10px;
+	font-size: 20px;
+	color: #ffffff;
+}
+h1{
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+hr {
+	border: 3px solid #af0102;
+	width: 227px;
+	color: #af0102;
+	margin-left: 7px;
+
+}
+.pwho {
+	display: inline-block;
+}
+#whowetitle {
+	float: right;
+	position: relative;
+	top: -250px;
+	left: -130px;
+}
+#whowep {
+	float: right;
+	position: relative;
+	top: -70px;
+	left: 280px;
+	width: 400px;
+}
+#whowep, #whowep2 {
+	color: #999999;
+	font-family: 'roboto';
+	font-size: 18px;
+}
+#whowep2 {
+	float: right;
+	width: 805px;
+	position: relative;
+	top: -30px;
+	left: -27px;
+}
+#ourteam {
+	margin-top: 150px;
+}
+#ourteamtitle {
+	text-align: center;
+}
+#ourteam hr {
+	margin-top: 150px;
+	width: 200px;
+	margin: auto;
+}
+
+@-webkit-keyframes animlogo { /* Safari, Opera, Chrome */
+    0% {
+        transform: translateY(150px) ; opacity:0; 
+    }
+    100% {
+        transform: translateY(0px) ; opacity:1; 
+    }
+}
+
+@keyframes animlogo { /* Tous les autres navigateurs */
+    0% {
+        transform: translateY(150px) ; opacity:0; 
+    }
+    100% {
+        transform: translateY(0px) ; opacity:1; 
+    }
+}
+
+.logo {
+    -webkit-animation: animlogo 3s; /* Safari, Opera, Chrome */
+    animation: animlogo 3s; /* Tous les autres navigateurs */
+}
+@-webkit-keyframes headertranspa { /* Safari, Opera, Chrome */
+     0% {
+        background-color: rgba(0,0,0,0.85);
+    }
+    30% {
+        background-color: rgba(255,255,255,0.55);
+    }
+    100% {
+        background-color: rgba(0,0,0,0.85);
+    }
+}
+
+@keyframes headertranspa { /* Tous les autres navigateurs */
+    0% {
+        background-color: rgba(0,0,0,0.85);
+    }
+    30% {
+        background-color: rgba(255,255,255,0.55);
+    }
+    100% {
+        background-color: rgba(0,0,0,0.85);
+    }
+}
+.headertranspa {
+    
+    -webkit-animation: headertranspa 2s; /* Safari, Opera, Chrome */
+    animation: headertranspa 2s; /* Tous les autres navigateurs */
 }
