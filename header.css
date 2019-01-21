@@ -310,7 +310,7 @@ nav ul li a
     
     height: 220px;
     width: 300px;
-    margin-left: 40%;
+    margin-left: 640px;
     background-repeat: no-repeat;
     z-index: 100;
     margin-top: 11%;
@@ -322,46 +322,40 @@ nav ul li a
 @keyframes slidein
 {
     from{
-       margin-top: 20%;
+       margin-top: 0%;
     }
     to{
-        margin-top:9%; 
+        margin-top:11%; 
     }
 }
 
 #whoweare
 {
-    border: solid 1px black;
-    
     height: 650px;
     width: 100%;
     position: relative;
+    
     
 }
 #imgwhoweare
 {
     background-image: url(images/imageBiere28.png);
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
     width: 350px;
     height: 350px;
     position: absolute;
-    margin-left: 20%;
-    margin-top: 10%;
+    margin-left: 300px;
+    margin-top: 150px;
 }
 #pimg
 {
-    
-    
-    
     height: 20px;
     padding-bottom: 20px;
     position: absolute;
     margin-left: -75px;
     margin-top: 20px;
-
-
-}
+    
+} 
 #pimg p
 {
     margin-top: 1px;
@@ -376,30 +370,38 @@ nav ul li a
 {
     
     width: 150px;
-    margin-left: 48%;
-    margin-top: 200px;
+    margin-left: 690px;
+    margin-top: 205px;
     position: absolute;
     z-index: 100;
-    border-bottom: solid 3px red;
-
+    /*margin-bottom: 7px;*/
+    font-size: 20px;
+    
+}
+#lignerouge
+{
+    width: 115px;
+    margin-left: 1px;
+    height: 3px;
+    background-color: red;
+    margin-top: -10px;
+    
 }
 #phorsimgone
 {
     width: 420px;
     height: 150px;
-
-    
-    margin-left: 70%;
+    margin-left: 690px;
     position: absolute;
-    margin-left: 48%;
     margin-top: 370px;
+
 }
 #phorsimgtwo
 {
     
     
     width: 850px;
-    margin-left: 19%;
+    margin-left: 290px;
     margin-top: 530px;
     position: absolute;
 }
