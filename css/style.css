@@ -3,12 +3,12 @@
 h2{font-size: 50px; width:25%; margin: auto;}
 
 .titre{font-size:15px; margin: auto; display: inline; width: 25%;
-	background-color:red; padding: 4px 20px 2px 8px;}
+	background-color:#B22222; padding: 4px 20px 2px 8px; color: white;}
 
 .texte1{font-size: 15px; color: #A9A9A9;}
 
 hr{width: 180px;
-	margin-left: 365px; margin-right: auto; margin-top: 3px; border:2px solid #ff0000;}
+	margin-left: 365px; margin-right: auto; margin-top: 3px; border:2px solid #B22222;}
 
 #team, #events{border: 3px solid white; margin: 150px 0 150px 0;}
 
@@ -32,10 +32,10 @@ hr{width: 180px;
 
 .femme2{float: right;}
 
-.mini{border: 0 solid white; height: 230px; width: 225px;
+.mini{border: 0 solid white; height: 238px; width: 230px;
 	box-shadow: 0 3px 4px #808080;}
 
-.title{font-size:22px; background-color:red; padding: 5px;}
+.title{font-size:22px; background-color:#B22222; padding: 5px; color: white;}
 
 .tableau{display: flex; margin: 45px 60px 0 65px;}
 
@@ -45,6 +45,6 @@ hr{width: 180px;
 
 .date{ margin: 10px 0 10px 0; font-weight: bold;}
 
-h4{padding: 0 40px 0 40px;}
+h4{padding: 0 45px 0 45px;}
 
-.texte2{font-size: 15px; padding: 0 35px 0 35px; color: #A9A9A9;}
+.texte2{font-size: 15px; padding: 0 42px 0 42px; color: #A9A9A9;}
