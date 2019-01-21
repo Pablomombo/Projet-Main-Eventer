@@ -1,4 +1,234 @@
-/*---------------------form styles---------------------*/
+
+header {
+	background-image: url("../images/header_Background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	margin-top: 0px;
+	height: 450px;
+	width: 100%;
+	z-index: -10;
+}
+.headertranspa {
+	z-index: -5;
+	background-color: rgba(0,0,0,0.85);
+	height: 450px;
+	width: 100%;
+	margin-top: -450px;
+}
+nav {
+	z-index: 0;
+	width: 450px;
+	height: 60px;
+	float: right;
+}
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li{
+	float: left;
+	list-style-type: none;
+}
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 15px 20px;
+	position: relative;
+	top: 15px;
+}
+nav ul li a:hover{
+	color: #af0102;
+}
+.logo {
+	background-image: url("../images/LOGO.png");
+	background-repeat: no-repeat;
+	margin: auto;
+	height: 250px;
+	width: 280px;
+	position: relative;
+	top:150px;
+}
+.whoweare {
+	width:1100px;
+	margin:auto;
+	display: inline-block;
+	z-index: 10px;
+}
+.beer28 {
+	background-image: url("../images/imageBiere28.png");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+	position: relative;
+	top: 100px;
+	left: 275px;
+}
+.beer28text {
+	position: relative;
+	top: 30px;
+	background-color: #af0102;
+	width: 165px;
+	height: 40px;
+	margin-left: -100px;
+	border: 3px solid #FFFFFF;
+	padding: 10px;
+	font-size: 20px;
+	color: #ffffff;
+}
+h1{
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+hr {
+	border: 3px solid #af0102;
+	width: 227px;
+	color: #af0102;
+	margin-left: 7px;
+
+}
+.pwho {
+	display: inline-block;
+}
+#whowetitle {
+	float: right;
+	position: relative;
+	top: -250px;
+	left: -130px;
+}
+#whowep {
+	float: right;
+	position: relative;
+	top: -70px;
+	left: 280px;
+	width: 400px;
+}
+#whowep, #whowep2 {
+	color: #999999;
+	font-family: 'roboto';
+	font-size: 18px;
+}
+#whowep2 {
+	float: right;
+	width: 805px;
+	position: relative;
+	top: -30px;
+	left: -27px;
+}
+#ourteam {
+	margin-top: 150px;
+}
+#ourteamtitle {
+	text-align: center;
+}
+#ourteam hr {
+	margin-top: 150px;
+	width: 200px;
+	margin: auto;
+}
+
+@-webkit-keyframes animlogo { /* Safari, Opera, Chrome */
+    0% {
+        transform: translateY(150px) ; opacity:0; 
+    }
+    100% {
+        transform: translateY(0px) ; opacity:1; 
+    }
+}
+
+@keyframes animlogo { /* Tous les autres navigateurs */
+    0% {
+        transform: translateY(150px) ; opacity:0; 
+    }
+    100% {
+        transform: translateY(0px) ; opacity:1; 
+    }
+}
+
+.logo {
+    -webkit-animation: animlogo 3s; /* Safari, Opera, Chrome */
+    animation: animlogo 3s; /* Tous les autres navigateurs */
+}
+@-webkit-keyframes headertranspa { /* Safari, Opera, Chrome */
+     0% {
+        background-color: rgba(0,0,0,0.85);
+    }
+    30% {
+        background-color: rgba(255,255,255,0.55);
+    }
+    100% {
+        background-color: rgba(0,0,0,0.85);
+    }
+}
+
+@keyframes headertranspa { /* Tous les autres navigateurs */
+    0% {
+        background-color: rgba(0,0,0,0.85);
+    }
+    30% {
+        background-color: rgba(255,255,255,0.55);
+    }
+    100% {
+        background-color: rgba(0,0,0,0.85);
+    }
+}
+.headertranspa {
+    
+    -webkit-animation: headertranspa 2s; /* Safari, Opera, Chrome */
+    animation: headertranspa 2s; /* Tous les autres navigateurs */
+}
+
+#Pablo{width: 65%; margin: auto;}
+
+h2{font-size: 50px; width:25%; margin: auto;}
+
+.titre{font-size:15px; margin: auto; display: inline; width: 25%;
+	background-color:#B22222; padding: 4px 20px 2px 8px; color: white;}
+
+.texte1{font-size: 15px; color: #A9A9A9;}
+
+hr{width: 180px;
+	margin-left: 365px; margin-right: auto; margin-top: 3px; border:2px solid #B22222;}
+
+#team, #events{border: 3px solid white; margin: 150px 0 150px 0;}
+
+.gauche{border: 3px solid white; height: 300px; width: 400px;
+	float: left; margin: 30px 0 0 0;}
+
+.droite{border: 3px solid white; height: 300px; width: 400px;
+	float: right; margin: 30px 0 0 0;}
+
+.resume{border: 3px solid white;}
+
+.image{float: left;}
+
+.image2{float: left; margin-left: 12px;}
+
+.clear{clear: both;}
+
+.femmes{border: 3px solid white; margin: 0;}
+
+.femme1{float: left;}
+
+.femme2{float: right;}
+
+.mini{border: 0 solid white; height: 238px; width: 230px;
+	box-shadow: 0 3px 4px #808080;}
+
+.title{font-size:22px; background-color:#B22222; padding: 5px; color: white;}
+
+.tableau{display: flex; margin: 45px 60px 0 65px;}
+
+.tableau>section{ margin: 20px; text-align: center;}
+
+.mois{color: #00BFFF; font-size: 18px; margin: 10px 0 10px 0;}
+
+.date{ margin: 10px 0 10px 0; font-weight: bold;}
+
+h4{padding: 0 45px 0 45px;}
+
+.texte2{font-size: 15px; padding: 0 42px 0 42px; color: #A9A9A9;}
 
 html {
   font-family: 'Cinzel', serif;
@@ -110,3 +340,4 @@ textarea {
 .clear {
   clear: both;
 }
+
