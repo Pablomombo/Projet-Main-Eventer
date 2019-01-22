@@ -2,15 +2,15 @@
 
 ## Languages utilisés
 
-HTML5, CSS3
+HTML5, CSS3.
 
 ## Contenu
 
-Site web d'entreprise d'organisation d'événements
+Site web d'agence d'organisation evenementiel.
 
 ## Création
 
-Janvier 2019
+Janvier 2019.
 
 ## À venir
 
@@ -22,4 +22,4 @@ Dorian, Jean-Philippe, Perry, Pablo
 
 ## License
 
-Ce projet est sous Licence de BeCode TM
+Ce projet est sous Licence de BeCode TM.
