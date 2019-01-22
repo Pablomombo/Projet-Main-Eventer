@@ -183,14 +183,14 @@ hr {
 	margin: auto;}
 
 #Pablo h2 {
-	font-size: 50px; 
-	width:25%; 
+	font-size: 50px;
+	text-align: center;
 	margin: auto;
 }
 
-#Pablo hr{
-	width: 180px;
-	margin-left: 365px;
+#Pablo .hrteam{
+	width: 232px;
+	margin-left: 380px;
 	margin-right: auto;
 	margin-top: 3px;
 	border:2px solid #B22222;
@@ -255,7 +255,7 @@ hr {
 .texte1 {
 	font-size: 13px;
 	color: #A9A9A9;
-	margin-top:10px;
+	margin-top:15px;
 }
 
 .clear {
@@ -273,6 +273,14 @@ hr {
 
 .femme2 {
 	float: right;
+}
+
+#Pablo .hrevents{
+	width: 230px;
+	margin-left: 365px;
+	margin-right: auto;
+	margin-top: 3px;
+	border:2px solid #B22222;
 }
 
 .tableau {
