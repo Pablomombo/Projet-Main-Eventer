@@ -185,21 +185,7 @@ hr {
 #Pablo h2 {
 	font-size: 50px; 
 	width:25%; 
-	margin: auto;}
-
-.titre {
-	font-size:15px;
 	margin: auto;
-	display: inline;
-	width: 25%;
-	background-color:#B22222;
-	padding: 4px 20px 2px 8px;
-	color: white;
-}
-
-.texte1 {
-	font-size: 13px;
-	color: #A9A9A9;
 }
 
 #Pablo hr{
@@ -220,24 +206,56 @@ hr {
 	height: 300px;
 	width: 430px;
 	float: left;
-	margin: 30px 0 0 0;}
+	margin: 10px 0 0 0;
+}
 
 .droite {
 	border: 3px solid white; 
 	height: 300px;
 	width: 430px;
 	float: right;
-	margin: 30px 0 0 0;
+	margin: 10px 0 0 0;
 }
-.resume{
-	border: 3px solid white;
-}
+
 .image{
 	float: left;
 }
+
 .image2 {
-	float: left;
-	margin-left: 12px;
+	float: left; 
+	margin-left: 5px; 
+	margin-right: 6px;
+}
+
+.image3 {
+	float: left; 
+	margin-left: -1px;
+	margin-right: -2px;
+}
+
+.chef { 
+	margin-top:40px;
+}
+
+.resume {
+	border: 3px solid white;
+	margin-top:10px;
+}
+
+.titre {
+	font-size:15px;
+	margin: auto;
+	display: inline;
+	width: 25%;
+	background-color:#B22222;
+	padding: 4px 20px 2px 8px;
+	color: white;
+}
+
+.texte1 {
+	font-size: 13px;
+	color: #A9A9A9;
+	margin-top:10px;
 }
 
 .clear {
@@ -249,22 +267,32 @@ hr {
 	margin: 0;
 }
 
-.femme1{
+.femme1 {
 	float: left;
 }
 
-.femme2{
+.femme2 {
 	float: right;
 }
 
-.mini{
+.tableau {
+	display: flex;
+	margin: 45px 60px 0 65px;
+}
+
+.tableau>section { 
+	margin: 20px;
+	text-align: center;
+}
+
+.mini {
 	border: 0 solid white;
 	height: 235px;
 	width: 230px;
 	box-shadow: 0 3px 4px #808080;
 }
 
-#Pablo .title{
+#Pablo .title {
 	font-size:19px;
 	background-color:#B22222;
 	padding: 5px;
@@ -273,34 +301,25 @@ hr {
 	letter-spacing: 1px;
 }
 
-.tableau{
-	display: flex;
-	margin: 45px 60px 0 65px;
-}
-
-.tableau>section{ 
-	margin: 20px;
-	text-align: center;
-}
-
-.mois{
+.mois {
 	color: #00BFFF;
 	font-size: 18px; 
 	margin: 10px 0 10px 0;
 }
-.date{ 
+.date { 
 	margin: 10px 0 10px 0; 
 	font-weight: bold;
 }
 
-#Pablo h4{
+#Pablo h4 {
 	padding: 0 45px 0 45px;
 }
 
-.texte2{
+.texte2 {
 	font-size: 13px; 
 	padding: 0 42px 0 42px; 
-	color: #A9A9A9;}
+	color: #A9A9A9;
+}
 
 button, input, select, textarea {
   border: 1px solid #999;
