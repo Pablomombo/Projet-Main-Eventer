@@ -129,19 +129,19 @@ hr {
 }
 @-webkit-keyframes animlogo { /* Safari, Opera, Chrome */
     0% {
-        transform: translateY(150px) ; opacity:0; 
+        transform: translateY(150px) ; opacity:0;
     }
     100% {
-        transform: translateY(0px) ; opacity:1; 
+        transform: translateY(0px) ; opacity:1;
     }
 }
 
 @keyframes animlogo { /* Tous les autres navigateurs */
     0% {
-        transform: translateY(150px) ; opacity:0; 
+        transform: translateY(150px) ; opacity:0;
     }
     100% {
-        transform: translateY(0px) ; opacity:1; 
+        transform: translateY(0px) ; opacity:1;
     }
 }
 
@@ -173,13 +173,13 @@ hr {
     }
 }
 .headertranspa {
-    
+
     -webkit-animation: headertranspa 2s; /* Safari, Opera, Chrome */
     animation: headertranspa 2s; /* Tous les autres navigateurs */
 }
 
 #Pablo {
-	width: 1000px; 
+	width: 1000px;
 	margin: auto;}
 
 #Pablo h2 {
@@ -210,7 +210,7 @@ hr {
 }
 
 .droite {
-	border: 3px solid white; 
+	border: 3px solid white;
 	height: 300px;
 	width: 430px;
 	float: right;
@@ -222,18 +222,18 @@ hr {
 }
 
 .image2 {
-	float: left; 
-	margin-left: 5px; 
+	float: left;
+	margin-left: 5px;
 	margin-right: 6px;
 }
 
 .image3 {
-	float: left; 
+	float: left;
 	margin-left: -1px;
 	margin-right: -2px;
 }
 
-.chef { 
+.chef {
 	margin-top:40px;
 }
 
@@ -288,7 +288,7 @@ hr {
 	margin: 45px 60px 0 65px;
 }
 
-.tableau>section { 
+.tableau>section {
 	margin: 20px;
 	text-align: center;
 }
@@ -311,11 +311,11 @@ hr {
 
 .mois {
 	color: #00BFFF;
-	font-size: 18px; 
+	font-size: 18px;
 	margin: 10px 0 10px 0;
 }
-.date { 
-	margin: 10px 0 10px 0; 
+.date {
+	margin: 10px 0 10px 0;
 	font-weight: bold;
 }
 
@@ -324,8 +324,8 @@ hr {
 }
 
 .texte2 {
-	font-size: 13px; 
-	padding: 0 42px 0 42px; 
+	font-size: 13px;
+	padding: 0 42px 0 42px;
 	color: #A9A9A9;
 }
 
@@ -334,6 +334,16 @@ button, input, select, textarea {
   border-radius: 0.8rem;
   border-color: rgb(175,1,2);
   -webkit-appearance: none;
+  padding-left: 0.5rem;
+  padding right: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.Jean-Philippe {
+  max-width: 1000px;
+  display: block;
+  margin:auto;
 }
 
 button {
