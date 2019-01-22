@@ -320,6 +320,10 @@ hr {
 	font-weight: bold;
 }
 
+span {
+	font-size: 11px;
+}
+
 #Pablo h4 {
 	padding: 0 45px 0 45px;
 }
