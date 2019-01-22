@@ -1,4 +1,6 @@
-
+html {
+  font-family: 'Comfortaa', serif;
+}
 header {
 	background-image: url("../images/header_Background.jpg");
 	background-repeat: no-repeat;
@@ -69,24 +71,23 @@ nav ul li a:hover{
 	position: relative;
 	top: 30px;
 	background-color: #af0102;
-	width: 165px;
+	width: 180px;
 	height: 40px;
 	margin-left: -100px;
 	border: 3px solid #FFFFFF;
-	padding: 10px;
-	font-size: 20px;
+	padding: 5px;
+	font-size: 17px;
 	color: #ffffff;
 }
 h1{
-	font-size: 50px;
+	font-size: 45px;
 	letter-spacing: 2px;
 }
 hr {
-	border: 3px solid #af0102;
-	width: 227px;
+	border: 2.5px solid #af0102;
+	width: 240 px;
 	color: #af0102;
 	margin-left: 7px;
-
 }
 .pwho {
 	display: inline-block;
@@ -95,19 +96,18 @@ hr {
 	float: right;
 	position: relative;
 	top: -250px;
-	left: -130px;
+	left: -110px;
 }
 #whowep {
 	float: right;
 	position: relative;
 	top: -70px;
-	left: 280px;
+	left: 300px;
 	width: 400px;
 }
 #whowep, #whowep2 {
 	color: #999999;
-	font-family: 'roboto';
-	font-size: 18px;
+	font-size: 17px;
 }
 #whowep2 {
 	float: right;
@@ -127,22 +127,21 @@ hr {
 	width: 200px;
 	margin: auto;
 }
-
 @-webkit-keyframes animlogo { /* Safari, Opera, Chrome */
     0% {
-        transform: translateY(150px) ; opacity:0; 
+        transform: translateY(150px) ; opacity:0;
     }
     100% {
-        transform: translateY(0px) ; opacity:1; 
+        transform: translateY(0px) ; opacity:1;
     }
 }
 
 @keyframes animlogo { /* Tous les autres navigateurs */
     0% {
-        transform: translateY(150px) ; opacity:0; 
+        transform: translateY(150px) ; opacity:0;
     }
     100% {
-        transform: translateY(0px) ; opacity:1; 
+        transform: translateY(0px) ; opacity:1;
     }
 }
 
@@ -154,7 +153,7 @@ hr {
      0% {
         background-color: rgba(0,0,0,0.85);
     }
-    30% {
+    35% {
         background-color: rgba(255,255,255,0.55);
     }
     100% {
@@ -166,7 +165,7 @@ hr {
     0% {
         background-color: rgba(0,0,0,0.85);
     }
-    30% {
+    35% {
         background-color: rgba(255,255,255,0.55);
     }
     100% {
@@ -174,64 +173,160 @@ hr {
     }
 }
 .headertranspa {
-    
+
     -webkit-animation: headertranspa 2s; /* Safari, Opera, Chrome */
     animation: headertranspa 2s; /* Tous les autres navigateurs */
 }
 
-#Pablo{width: 65%; margin: auto;}
+#Pablo {
+	width: 1000px;
+	margin: auto;}
 
-h2{font-size: 50px; width:25%; margin: auto;}
+#Pablo h2 {
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+}
 
-.titre{font-size:15px; margin: auto; display: inline; width: 25%;
-	background-color:#B22222; padding: 4px 20px 2px 8px; color: white;}
+#Pablo .hrteam{
+	width: 232px;
+	margin-left: 380px;
+	margin-right: auto;
+	margin-top: 3px;
+	border:2px solid #B22222;
+}
 
-.texte1{font-size: 15px; color: #A9A9A9;}
+#team, #events {
+	border: 3px solid white;
+	margin: 150px 0 150px 0;
+}
 
-hr{width: 180px;
-	margin-left: 365px; margin-right: auto; margin-top: 3px; border:2px solid #B22222;}
+.gauche {
+	border: 3px solid white;
+	height: 300px;
+	width: 430px;
+	float: left;
+	margin: 10px 0 0 0;
+}
 
-#team, #events{border: 3px solid white; margin: 150px 0 150px 0;}
+.droite {
+	border: 3px solid white;
+	height: 300px;
+	width: 430px;
+	float: right;
+	margin: 10px 0 0 0;
+}
 
-.gauche{border: 3px solid white; height: 300px; width: 400px;
-	float: left; margin: 30px 0 0 0;}
+.image{
+	float: left;
+}
 
-.droite{border: 3px solid white; height: 300px; width: 400px;
-	float: right; margin: 30px 0 0 0;}
+.image2 {
+	float: left;
+	margin-left: 5px;
+	margin-right: 6px;
+}
 
-.resume{border: 3px solid white;}
+.image3 {
+	float: left;
+	margin-left: -1px;
+	margin-right: -2px;
+}
 
-.image{float: left;}
+.chef {
+	margin-top:40px;
+}
 
-.image2{float: left; margin-left: 12px;}
+.resume {
+	border: 3px solid white;
+	margin-top:10px;
+}
 
-.clear{clear: both;}
+.titre {
+	font-size:15px;
+	margin: auto;
+	display: inline;
+	width: 25%;
+	background-color:#B22222;
+	padding: 4px 20px 2px 8px;
+	color: white;
+}
 
-.femmes{border: 3px solid white; margin: 0;}
+.texte1 {
+	font-size: 13px;
+	color: #A9A9A9;
+	margin-top:15px;
+}
 
-.femme1{float: left;}
+.clear {
+	clear: both;
+}
 
-.femme2{float: right;}
+.femmes {
+	border: 3px solid white;
+	margin: 0;
+}
 
-.mini{border: 0 solid white; height: 238px; width: 230px;
-	box-shadow: 0 3px 4px #808080;}
+.femme1 {
+	float: left;
+}
 
-.title{font-size:22px; background-color:#B22222; padding: 5px; color: white;}
+.femme2 {
+	float: right;
+}
 
-.tableau{display: flex; margin: 45px 60px 0 65px;}
+#Pablo .hrevents{
+	width: 230px;
+	margin-left: 365px;
+	margin-right: auto;
+	margin-top: 3px;
+	border:2px solid #B22222;
+}
 
-.tableau>section{ margin: 20px; text-align: center;}
+.tableau {
+	display: flex;
+	margin: 45px 60px 0 65px;
+}
 
-.mois{color: #00BFFF; font-size: 18px; margin: 10px 0 10px 0;}
+.tableau>section {
+	margin: 20px;
+	text-align: center;
+}
 
-.date{ margin: 10px 0 10px 0; font-weight: bold;}
+.mini {
+	border: 0 solid white;
+	height: 235px;
+	width: 230px;
+	box-shadow: 0 3px 4px #808080;
+}
 
-h4{padding: 0 45px 0 45px;}
+#Pablo .title {
+	font-size:19px;
+	background-color:#B22222;
+	padding: 5px;
+	color: white;
+	font-family: 'roboto';
+	letter-spacing: 1px;
+}
 
-.texte2{font-size: 15px; padding: 0 42px 0 42px; color: #A9A9A9;}
+.mois {
+	color: #00BFFF;
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+.date {
+	margin: 10px 0 10px 0;
+	font-weight: bold;
+}
 
-html {
-  font-family: 'Cinzel', serif;
+#Pablo h4 {
+	padding: 0 45px 0 45px;
+}
+
+.texte2 {
+	font-size: 13px;
+	padding: 0 42px 0 42px;
+	color: #A9A9A9;
 }
 
 button, input, select, textarea {
@@ -239,6 +334,16 @@ button, input, select, textarea {
   border-radius: 0.8rem;
   border-color: rgb(175,1,2);
   -webkit-appearance: none;
+  padding-left: 0.5rem;
+  padding right: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.Jean-Philippe {
+  max-width: 1000px;
+  display: block;
+  margin:auto;
 }
 
 button {
@@ -257,19 +362,19 @@ button {
   background-image: url(../images/swirl_pattern.png);
 }
 
-h2 {
+ #Jean-Philippe h2 {
   font-family: 'Comfortaa', cursive;
   font-size: 2rem;
   /*text-decoration: underline rgb(175,1,2);*/
   margin-bottom: 2rem;
 }
 
-h2.underlined {
+#Jean-Philippe h2.underlined {
   display: inline-block;
   border-bottom: 3px solid rgb(175,1,2);
 }
 
-h3 {
+.footer h3 {
   font-family: 'Comfortaa', cursive;
   font-size: 2rem;
   text-transform: uppercase;
@@ -277,7 +382,7 @@ h3 {
   padding: 2rem;
 }
 
-.logos {
+#Jean-Philippe .logos {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -287,7 +392,10 @@ h3 {
   flex-direction: row;
   justify-content: center;
 }
-
+.logosContainer img{
+  padding: 30px;
+  margin-top: -20px;
+}
 .formcontainer {
   width: 480px;
   margin:auto;
@@ -340,4 +448,3 @@ textarea {
 .clear {
   clear: both;
 }
-
