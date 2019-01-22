@@ -108,6 +108,7 @@ hr {
 #whowep, #whowep2 {
 	color: #999999;
 	font-size: 17px;
+	text-align: justify;
 }
 #whowep2 {
 	float: right;
@@ -369,9 +370,10 @@ button {
 
  #Jean-Philippe h2 {
   font-family: 'Comfortaa', cursive;
-  font-size: 2rem;
+  font-size: 50px;
   /*text-decoration: underline rgb(175,1,2);*/
   margin-bottom: 2rem;
+  margin-left: 65px;
 }
 
 #Jean-Philippe h2.underlined {
