@@ -285,7 +285,8 @@ hr {
 
 .tableau {
 	display: flex;
-	margin: 45px 60px 0 65px;
+	justify-content: space-between;
+	margin: 45px 50px 0 65px;
 }
 
 .tableau>section { 
