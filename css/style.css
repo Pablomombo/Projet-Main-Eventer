@@ -1,5 +1,5 @@
 html {
-  font-family: 'Comfortaa', serif;
+	font-family: 'Comfortaa', serif;
 }
 header {
 	background-image: url("../images/header_Background.jpg");
@@ -54,9 +54,9 @@ nav ul li a:hover{
 }
 .whoweare {
 	width:1100px;
-	margin:auto;
-	display: inline-block;
 	z-index: 10px;
+	margin:auto;
+
 }
 .beer28 {
 	background-image: url("../images/imageBiere28.png");
@@ -65,7 +65,7 @@ nav ul li a:hover{
 	width: 400px;
 	position: relative;
 	top: 100px;
-	left: 275px;
+	left: 175px;
 }
 .beer28text {
 	position: relative;
@@ -73,7 +73,7 @@ nav ul li a:hover{
 	background-color: #af0102;
 	width: 180px;
 	height: 40px;
-	margin-left: -100px;
+	margin-left: -120px;
 	border: 3px solid #FFFFFF;
 	padding: 5px;
 	font-size: 17px;
@@ -96,13 +96,13 @@ hr {
 	float: right;
 	position: relative;
 	top: -250px;
-	left: -110px;
+	left: -200px;
 }
 #whowep {
 	float: right;
 	position: relative;
 	top: -70px;
-	left: 300px;
+	left: 200px;
 	width: 400px;
 }
 #whowep, #whowep2 {
@@ -112,13 +112,13 @@ hr {
 }
 #whowep2 {
 	float: right;
-	width: 805px;
+	width: 800px;
 	position: relative;
 	top: -30px;
-	left: -27px;
+	left: -125px;
 }
 #ourteam {
-	margin-top: 150px;
+	margin-top: 250px;
 }
 #ourteamtitle {
 	text-align: center;
@@ -145,7 +145,6 @@ hr {
         transform: translateY(0px) ; opacity:1;
     }
 }
-
 .logo {
     -webkit-animation: animlogo 3s; /* Safari, Opera, Chrome */
     animation: animlogo 3s; /* Tous les autres navigateurs */
@@ -161,7 +160,6 @@ hr {
         background-color: rgba(0,0,0,0.85);
     }
 }
-
 @keyframes headertranspa { /* Tous les autres navigateurs */
     0% {
         background-color: rgba(0,0,0,0.85);
@@ -178,17 +176,15 @@ hr {
     -webkit-animation: headertranspa 2s; /* Safari, Opera, Chrome */
     animation: headertranspa 2s; /* Tous les autres navigateurs */
 }
-
 #Pablo {
 	width: 1000px;
-	margin: auto;}
-
+	margin: auto;
+}
 #Pablo h2 {
 	font-size: 50px;
 	text-align: center;
 	margin: auto;
 }
-
 #Pablo .hrteam{
 	width: 232px;
 	margin-left: 380px;
@@ -196,12 +192,10 @@ hr {
 	margin-top: 3px;
 	border:2px solid #B22222;
 }
-
 #team, #events {
 	border: 3px solid white;
 	margin: 150px 0 150px 0;
 }
-
 .gauche {
 	border: 3px solid white;
 	height: 300px;
@@ -209,7 +203,6 @@ hr {
 	float: left;
 	margin: 10px 0 0 0;
 }
-
 .droite {
 	border: 3px solid white;
 	height: 300px;
@@ -217,32 +210,26 @@ hr {
 	float: right;
 	margin: 10px 0 0 0;
 }
-
 .image{
 	float: left;
 }
-
 .image2 {
 	float: left;
 	margin-left: 5px;
 	margin-right: 6px;
 }
-
 .image3 {
 	float: left;
 	margin-left: -1px;
 	margin-right: -2px;
 }
-
 .chef {
 	margin-top:40px;
 }
-
 .resume {
 	border: 3px solid white;
 	margin-top:10px;
 }
-
 .titre {
 	font-size:15px;
 	margin: auto;
@@ -252,30 +239,24 @@ hr {
 	padding: 4px 20px 2px 8px;
 	color: white;
 }
-
 .texte1 {
 	font-size: 13px;
 	color: #A9A9A9;
 	margin-top:15px;
 }
-
 .clear {
 	clear: both;
 }
-
 .femmes {
 	border: 3px solid white;
 	margin: 0;
 }
-
 .femme1 {
 	float: left;
 }
-
 .femme2 {
 	float: right;
 }
-
 #Pablo .hrevents{
 	width: 230px;
 	margin-left: 365px;
@@ -283,25 +264,22 @@ hr {
 	margin-top: 3px;
 	border:2px solid #B22222;
 }
-
 .tableau {
 	display: flex;
 	justify-content: space-between;
 	margin: 45px 50px 0 65px;
 }
-
 .tableau>section {
 	margin: 20px;
 	text-align: center;
 }
-
 .mini {
 	border: 0 solid white;
-	height: 235px;
+	height: auto;
+	padding-bottom: 25px; 
 	width: 230px;
 	box-shadow: 0 3px 4px #808080;
 }
-
 #Pablo .title {
 	font-size:19px;
 	background-color:#B22222;
@@ -310,7 +288,6 @@ hr {
 	font-family: 'roboto';
 	letter-spacing: 1px;
 }
-
 .mois {
 	color: #00BFFF;
 	font-size: 18px;
@@ -320,21 +297,17 @@ hr {
 	margin: 10px 0 10px 0;
 	font-weight: bold;
 }
-
 span {
 	font-size: 11px;
 }
-
 #Pablo h4 {
 	padding: 0 45px 0 45px;
 }
-
 .texte2 {
 	font-size: 13px;
 	padding: 0 42px 0 42px;
 	color: #A9A9A9;
 }
-
 button, input, select, textarea {
   border: 1px solid #999;
   border-radius: 0.8rem;
@@ -345,87 +318,74 @@ button, input, select, textarea {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
 }
-
 .Jean-Philippe {
   max-width: 1000px;
   display: block;
   margin:auto;
 }
-
 button {
  padding-left:0.8rem;
  padding-right:0.8rem;
  padding-top: 0.4rem;
  padding-bottom: 0.4rem;
 }
-
 .formFlex {
   display:flex;
 }
-
 .footer {
   height: 200px;
   background-image: url(../images/swirl_pattern.png);
 }
-
  #Jean-Philippe h2 {
   font-family: 'Comfortaa', cursive;
   font-size: 50px;
-  /*text-decoration: underline rgb(175,1,2);*/
   margin-bottom: 2rem;
   margin-left: 65px;
 }
-
 #Jean-Philippe h2.underlined {
-  display: inline-block;
-  border-bottom: 3px solid rgb(175,1,2);
+  	display: inline-block;
+  	border-bottom: 3px solid rgb(175,1,2);
 }
-
 .footer h3 {
-  font-family: 'Comfortaa', cursive;
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 2rem;
+  	font-family: 'Comfortaa', cursive;
+  	font-size: 2rem;
+  	text-transform: uppercase;
+  	text-align: center;
+  	padding: 2rem;
 }
-
 #Jean-Philippe .logos {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+ 	padding-left: 1.5rem;
+  	padding-right: 1.5rem;
 }
-
 .logosContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 .logosContainer img{
-  padding: 30px;
-  margin-top: -20px;
+ 	padding: 30px;
+ 	margin-top: -20px;
 }
-.formcontainer {
-  width: 480px;
-  margin:auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+form {
+	width: 480px;
+ 	margin:auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 16px;
 }
-
 .formfirstrow {
-  float: left;
+ 	float: left;
 }
-
 .formfirstrowCol {
-  float: right;
-  display:block;
-  margin:auto;
+ 	float: right;
+ 	display:block;
+ 	margin:auto;
 }
-
 label {
-  display: block;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+	display: block;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
-
 button[type=submit]
 {
     display: block;
@@ -442,16 +402,13 @@ button[type=submit]
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
-
 button[type=submit]:hover {
-  background-color: rgb(175,1,2);
-  color: #fff;
+	background-color: rgb(175,1,2);
+	color: #fff;
 }
-
 textarea {
-  width: 400px;
+  	width: 400px;
 }
-
 .clear {
-  clear: both;
+	clear: both;
 }
