@@ -12,10 +12,6 @@ Site web d'agence d'organisation evenementiel.
 
 Janvier 2019.
 
-## À venir
-
-## Screenshots
-
 ## Créateurs
 
 Dorian, Jean-Philippe, Perry, Pablo
